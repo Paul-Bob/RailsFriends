@@ -1,0 +1,11 @@
+rails new .
+
+rails s
+rails g controller home index
+rails routes
+rails g scaffold friends name:string email:string phone:string
+rails db:migrate
+
+
+byebug
+var local / global etc... (var for help)
